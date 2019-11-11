@@ -67,20 +67,25 @@ label .form-control{
 
 
 @media only screen and (max-width: 991px) {
-  #nav-bar {
-    display: flex !important;
-    
-  }
-  .navbar-link {
-      display: none;
-  }
-  nav{
-      width: 100vw;
-  }
-  .navbar-img{
-    margin-right: 50%;
-  }
-  form{
-      margin-top: 10%;
-  }
+#nav-bar {
+display: flex !important;
+
+}
+.navbar-link {
+    display: none;
+}
+nav{
+    width: 100vw;
+}
+
+form{
+    margin-top: 10%;
+}
+
+}
+
+@media (min-width: 991px) {
+    .hide {
+        display: none !important;
+    }
 }
