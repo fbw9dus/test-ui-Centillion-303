@@ -7,7 +7,7 @@
     src: local(fonts/Gotham-Rounded/GothamRoundedBold_21016.ttf);
 }
 body{
-    font-family: Gotham-Rounded;
+    font-family: Gotham-Rounded !important;
 }
 
 #nav-bar{
